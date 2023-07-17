@@ -21,8 +21,8 @@ export const getOrgMembers = async (): Promise<string[]> => {
 
 // Invite outsider to orgs
 
-// If members is exists -> return false
-// If not -> invite user -> return true
+// If members is exists -> do nothing
+// If not -> invite user
 export const inviteUserToOrg = async (username: string) => {
   const members = await getOrgMembers()
 

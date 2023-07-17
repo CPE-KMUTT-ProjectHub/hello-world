@@ -15,3 +15,5 @@ Then, open **pull request** to this repo we'll review it later.
 
 > **Warning**
 > : Don't forget to tell your student id in pull request
+
+Also, you can find some examples of pull requests inside closed pull requests.

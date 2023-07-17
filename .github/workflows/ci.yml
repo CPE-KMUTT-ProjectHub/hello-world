@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  manage-org-member:
+  run:
     runs-on: ubuntu-latest
     strategy:
       matrix:
